@@ -1,15 +1,3 @@
-.imgheader {
-animation-name: imgheaderani;
-animation-duration: 1s
-}
-.imgheader.hover {
-width: 600;
-}
-@keyframes imgheaderani {
-0% {width: 0; height: 120;}
-100% {width: 600; height: 120;}
-}
-
 h1.hd {
 font: 2.3em Helevetica, sans-serif; /* em what the sigma */
 position: relative;
@@ -17,11 +5,11 @@ animation-name: headertextani;
 animation-duration: 2s;
 }
 hd.hover {
-left: 400px;
+left: 4px;
 color: black;
 }
 @keyframes headertextani {
-from {color: white; left: 1000px;}
+from {color: white; left: 0px;}
 to {color: black; left: 0px;}
 }
 .intro {
@@ -36,13 +24,13 @@ intro.hover {
 color: black;
 }
 @keyframes intextani {
-0% {color: white; right: -600px;}
+0% {color: white; right: 0px;}
 100% {color: black; right: 0px;}
 }
 .small {
 top: 50px;
 right: 0px;
-font: 1.8em Helevetica, sans-serif; /* em what the sigma */
+font: 1.8em Helevetica, sans-serif; /* em, I miss Fireboy and Watergirl */
 position: relative;
 animation-name: sltextani;
 animation-duration: 2s;
@@ -51,7 +39,7 @@ small.hover {
 color: black;
 }
 @keyframes sltextani {
-0% {color: white; right: -600px;}
+0% {color: white; right: 0px;}
 100% {color: black; right: 0px;}
 }
 
