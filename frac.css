@@ -70,9 +70,10 @@ color: black;
 }
 
 .Akiped {
-  display: grid;
-  align-items: left;
-  gap: 15px;
-  float: left;
-  grid-template-columns: auto 1fr;
+  display: flex;
+  align-items: center;
+}
+
+.Akiped img {
+  margin-right: 10px;
 }
