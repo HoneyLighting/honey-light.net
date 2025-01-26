@@ -68,3 +68,9 @@ border: 2px #ffa500;
 background-color: #fef65b;
 color: black;
 }
+
+.Akiped {
+  display: grid;
+  align-items: left;
+  gap: 15px;
+}
