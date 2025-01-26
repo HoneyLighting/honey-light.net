@@ -73,4 +73,5 @@ color: black;
   display: grid;
   align-items: left;
   gap: 15px;
+  float: left;
 }
