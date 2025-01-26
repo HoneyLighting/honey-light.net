@@ -74,5 +74,5 @@ color: black;
   align-items: left;
   gap: 15px;
   float: left;
-  display: inline-block;
+  grid-template-columns: auto 1fr;
 }
